@@ -28,7 +28,7 @@ int main(void) {
     printf("c_init adress=%p \t",&c_init);
      printf("c_init data=%d \n",c_init);
 
-    printf("d_reg adress=%p \t",&d_reg);
+    //printf("d_reg adress=%p \t",&d_reg); /* this will not work, we dont have acess to register adress*/
        printf("d_reg data=%d \n",d_reg);
 
        printf("ptr adress=%p \t",&ptr);
